@@ -115,19 +115,30 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* main */
+
+
+
 /* title */
 
 .title-page {
     background-color: #2e2f42;
+    height: 600px;
+ 
+    
+
 }
 
 .title-page-text {
+        display: block;
+        padding-top: 188px;
+        padding-bottom: 282px; 
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        
 }
 
 .btn-title:hover,
@@ -136,14 +147,20 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn-title {
+        display: flex;
+        border-radius: 4px;
+        padding: 16px 32px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
         cursor: pointer;
-            background: #4d5ae5;
-
+        background: #4d5ae5;
+        justify-content: center;
+        margin: 0 auto;
+        
+       
 }
 
 .benefits-title {
