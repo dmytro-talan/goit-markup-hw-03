@@ -197,13 +197,14 @@ h1, h2, h3, h4, h5, h6, p {
 .benefits {
         display: flex;
         text-align: left;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
         padding-left: 156px;
         padding-right: 156px;
         padding-top: 120px;
         padding-bottom: 120px;
-        gap: 40px;
+        gap: 24px;
+        
 }
 
 .benefits-content {
@@ -220,11 +221,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .benefits-p {
+        width: 264px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 
 /* hero */
@@ -273,7 +276,7 @@ h1, h2, h3, h4, h5, h6, p {
         padding: 0px 0px 32px;
         margin: 0 10px;
         width: 264px;
-        height: 380px;           
+                 
 }
 
 .team-s-title {
