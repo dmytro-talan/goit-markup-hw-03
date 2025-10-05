@@ -40,6 +40,13 @@ h1, h2, h3, h4, h5, h6, p {
         margin: 0;
 }
 
+
+section {
+        padding-bottom: 120px;
+        padding-top: 120px;
+}
+
+
 /* header */
 
 .page-header {
@@ -133,14 +140,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .title-page {
     background-color: #2e2f42;
-    padding-bottom: 180px;
-    padding-top: 180px;
 }
 
+ /* padding-bottom: 180px;
+ padding-top: 180px; */
 
-/* .title-container {
+
+.title-container {
       display: block
-} */
+} 
 
 .title-page-text {
         display: block;
@@ -154,6 +162,7 @@ h1, h2, h3, h4, h5, h6, p {
         max-width: 496px;
         color: #fff;
         margin-bottom: 48px;
+        margin-top: 68px;
        
         
 }
@@ -179,6 +188,10 @@ h1, h2, h3, h4, h5, h6, p {
        
 }
 
+.btn-title {
+        margin-bottom: 68px;
+}
+
 
 /* benefit */
 
@@ -190,19 +203,18 @@ h1, h2, h3, h4, h5, h6, p {
         padding: 0;
         border: 0;
         clip: rect(0 0 0 0);
+        clip-path: inset(100%);
         overflow: hidden;
         white-space: nowrap;
 }
 
-.benefits {
+.benefits-card {
         display: flex;
         text-align: left;
         justify-content: center;
         margin: 0 auto;
         padding-left: 156px;
         padding-right: 156px;
-        padding-top: 120px;
-        padding-bottom: 120px;
         gap: 24px;
         
 }
@@ -251,11 +263,9 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        text-align: center;
         color: #2e2f42;
         text-align: center;
         margin: 0 auto;
-        padding-top: 120px;
         padding-bottom: 72px;
 }
 
@@ -264,7 +274,7 @@ h1, h2, h3, h4, h5, h6, p {
         list-style: none;
         padding: 0;
         margin: 0;
-        padding-bottom: 120px;
+       
         
 }
 
@@ -311,6 +321,25 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* portfolio */
 
+.portfolio-container {
+        box-sizing: border-box;
+        margin: 0 auto;
+        
+}
+
+.our-portfolio {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 48px 24px;
+      list-style: none;
+      margin: 0;
+}
+
+.portfolio-card {
+width: 360px;
+
+}
+
 .portfolio-title {
         font-weight: 700;
         font-size: 36px;
@@ -321,12 +350,19 @@ h1, h2, h3, h4, h5, h6, p {
         color: #2e2f42;
 }
 
+
+.portfolio-title {
+        padding-bottom: 72px;
+}
+
 .portfolio-s-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 32px;
+        padding-bottom: 8px;
 }
 
 .portfolio-p {
@@ -335,6 +371,7 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
 }
 
 /* footer */
@@ -343,7 +380,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #2e2f42;
 }
 
-.fotter-logo .logo-part {
+.footer-logo .logo-part {
 color: #f4f4fd;;
 }
 
@@ -355,4 +392,19 @@ color: #f4f4fd;;
         letter-spacing: 0.02em;
         color: #f4f4fd;
 }
+
+
+.foot {
+        display: block;
+        max-width: 264px;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        margin-left: 156px;
+}
+
+.footer-p {
+       margin-top: 16px;
+}
+
 
