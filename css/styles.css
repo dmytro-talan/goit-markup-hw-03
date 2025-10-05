@@ -220,7 +220,7 @@ section {
 .benefits-title {
         font-weight: 500;
         font-size: 20px;
-        | line-height: 1.2;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
@@ -237,6 +237,10 @@ section {
 }
 
 /* hero */
+
+.hero-page {
+
+}
 
 .hero-block {
         padding: 0;
@@ -259,49 +263,32 @@ section {
         text-transform: capitalize;
         color: #2e2f42;
         text-align: center;
-        margin: 0 auto;
-        padding-bottom: 72px;
+        margin-bottom: 72px;    
 }
 
 .hero {
-        text-align: center;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-       
-        
+        display: flex;
+        gap: 24px;
 }
 
 .hero-card {
-        display: inline-block;
-        box-sizing: border-box;
-        vertical-align: top;
-        border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px;
-        margin: 0 10px;
-        width: 264px;
-                 
+        width: calc((100% - 72px) / 4)
+        border-radius: 0px 0px 4px
 }
 
-.team-s-title {
+.hero-info {
         padding-top: 32px;
+        padding-bottom: 32px;
 }
-
-.our-team-p {
-        padding-top: 8px;
-}
-
-
-
-/* team */
 
 .team-s-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .our-team-p {
@@ -309,8 +296,8 @@ section {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #434455;
+        text-align: center;
 }
 
 /* portfolio */
@@ -398,6 +385,7 @@ width: 360px;
 .foot {
         display: block;
         max-width: 264px;
+
         margin-left: 156px;
 }
 
