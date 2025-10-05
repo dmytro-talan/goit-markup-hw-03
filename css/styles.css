@@ -269,12 +269,19 @@ section {
 .hero {
         display: flex;
         gap: 24px;
+        
 }
 
 .hero-card {
         width: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px;
-        width: 264px;
+        border-radius: 0px 0px 4px 4px;  
+}
+
+.hero-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
 }
 
 .hero-info {
