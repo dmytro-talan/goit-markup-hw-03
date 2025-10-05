@@ -272,8 +272,9 @@ section {
 }
 
 .hero-card {
-        width: calc((100% - 72px) / 4)
-        border-radius: 0px 0px 4px
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px;
+        width: 264px;
 }
 
 .hero-info {
